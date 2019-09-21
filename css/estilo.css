@@ -1,0 +1,118 @@
+/* RESETS */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+
+.limpar-float{
+  clear: both;
+}
+
+/*LINK*/
+a{
+  text-decoration: none;
+  color: #f7b600;
+}
+
+#area-cabecalho a:link,#area-cabecalho a:visited {
+  padding: 10px;
+  color: #fff;
+}
+
+#area-cabecalho a:hover{
+  background-color: #fff;
+  color: #f7b600;
+}
+
+.postagem-lateral a{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  display: block;
+}
+
+/* TEXTOS */
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3.titulo-postagem-lateral{
+  font-size: 1em;
+  background-color: #ccc;
+  padding: 5px;
+}
+
+p.conteudo-postagem-lateral, a.conteudo-postagem-lateral{
+  font-size: 0.8em;
+}
+
+span.branco{
+  color: #fff;
+}
+
+.data-postagem{
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-style: italic;
+}
+
+/* LAYOUT */
+#area-cabecalho{
+  text-align: center;
+  padding: 15px;
+  background-color: #f7b600;
+}
+
+#area-logo, #area-menu{
+  padding: 10px;
+}
+
+#area-principal{
+  margin: 0 auto;
+  width: 920px;
+}
+
+#area-postagens, #area-lateral{
+  background-color: #FFF;
+  margin-top: 10px;
+}
+
+#area-postagens{
+  width: 660px;
+  float: left;
+}
+
+#area-lateral{
+  width: 240px;
+  float: right;
+}
+
+#area-rodape{
+  background-color: #ccc;
+  padding: 15px;
+  text-align: center;
+
+}
+
+/* POSTAGENS */
+.postagem{
+  padding: 20px;
+}
+
+.postagem-lateral{
+  padding: 10px;
+}
